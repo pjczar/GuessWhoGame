@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess Who</title>
+</head>
+<body>
+
+    <div class="options-container">
+        <label for="options">Choose your character:</label>
+        <select id="options" onchange="changeOption()">
+            <option value="option1">Alex</option>
+            <option value="option2">Alfred</option>
+            <option value="option3">Anita</option>
+            <option value="option4">Anne</option>
+            <option value="option5">Bernard</option>
+            <option value="option6">Bill</option>
+            <option value="option7">Charles</option>
+            <option value="option8">Claire</option>
+            <option value="option9">David</option>
+            <option value="option10">Eric</option>
+            <option value="option11">Frans</option>
+            <option value="option12">George</option>
+            <option value="option13">Herman</option>
+            <option value="option14">Joe</option>
+            <option value="option15">Maria</option>
+            <option value="option16">Max</option>
+            <option value="option17">Paul</option>
+            <option value="option18">Peter</option>
+            <option value="option19">Philip</option>
+            <option value="option20">Richard</option>
+            <option value="option21">Robert</option>
+            <option value="option22">Sam</option>
+            <option value="option23">Susan</option>
+            <option value="option24">Tom</option>
+            <!-- Add more options as needed -->
+        </select>
+        <button onclick="resetImages()">Reset</button>
+    </div>
+
+    <div class="image-grid">
+        <!-- Repeat the following block for each image -->
+        <div class="image-container" onclick="toggleOverlay(this)">
+          <img src="characters/character (1).png" alt="Image 1">
+            <div class="overlay"></div>
+        </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (2).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (3).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (4).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (5).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (6).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (7).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (8).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (9).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (10).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (11).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (12).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (13).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (14).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (15).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (16).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (17).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+        <img src="characters/character (18).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+          <img src="characters/character (19).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+          <img src="characters/character (20).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+          <img src="characters/character (21).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+          <img src="characters/character (22).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+          <img src="characters/character (23).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+      <div class="image-container" onclick="toggleOverlay(this)">
+          <img src="characters/character (24).png" alt="Image 1">
+          <div class="overlay"></div>
+      </div>
+        <!-- Repeat for other images -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
